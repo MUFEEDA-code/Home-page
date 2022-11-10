@@ -1,0 +1,133 @@
+body{
+font-family: 'Inter';
+}
+
+
+
+.container-fluid{
+    padding: 5% 15%;
+}
+
+
+.first-img{
+    width: 100%;
+}
+.right-sec{
+    padding-left: 8px;
+    padding-top: 16px;
+    background-color: black;
+}
+hr{
+    color: hsl(233, 8%, 79%);
+    margin: 16px 8px 16px 8px;
+}
+/* TEXT */
+a{
+    font-size: 20px;
+text-decoration: none;
+color:hsl(36, 100%, 99%)
+}
+a:hover{
+    color:hsl(35, 77%, 62%);
+}
+h2{
+    color: hsl(35, 77%, 62%);
+    line-height: 3;
+}
+p{
+    color:hsl(233, 8%, 79%);
+    font-size: 15px;
+    line-height: 2;
+}
+
+/* NABBAR */
+.navbar
+{
+    padding: 16px 0 32px 0;
+}
+.nav-item{
+    padding-left: 16px;
+}
+
+
+
+/* leftsection */
+
+h1{
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.button{
+    padding: 16px 24px 16px 24px;
+    font-size: 16px;
+    letter-spacing: 4px;
+    border-radius: 0px;
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+
+.des-section{
+    padding-top: 32px;
+}
+
+/* right-section */
+
+.right-sec{
+    padding-left: 32px;
+}
+
+/* BOTTOMSEC */
+.bottom-sec a{
+    color: black;
+    font-size: 16px;
+    font-family: 'Inter' ;
+    font-weight: bold;
+}
+.bottom-sec a:hover{
+    color:hsl(5, 85%, 63%)
+}
+
+.bottom-sec{
+    padding-top: 5%;
+}
+.bottom-img {
+    float: left;
+     width: 50%;
+    padding-right: 16px;
+    margin-top: 16px;
+}
+h3{
+    color:hsl(233, 8%, 79%);
+}
+.bottom-sec p{
+    font-size: 12px;
+    color:grey;
+}
+.description-sec{
+    padding-top: 16px;
+    padding: 6%;
+}
+.para-sec{
+    padding-top: 8px;
+}
+
+
+@media (max-width:1208px) {
+
+    .container-fluid{
+        padding: 5% 2%;
+    }
+   
+    .button{
+        background-color:hsl(5, 85%, 63%) ;
+    }
+    .bottom-img {
+        width:100%;
+       
+    }
+    .bottom-sec p{
+        font-size: 15px;
+    }
+
+}
